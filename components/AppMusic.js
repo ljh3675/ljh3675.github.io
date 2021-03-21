@@ -17,7 +17,7 @@ export default {
     data: function () {
         return {
             activeNames: ['1'],
-            music_api: 'https://api.github.com/repos/ljh3675/relax',
+            music_api: 'https://api.github.com/repos/ljh3675/relax/contents',
             music_list: [],
             music_msg: '正在读取文件...',
             tips_msg: '',
@@ -30,7 +30,7 @@ export default {
             play_model: 0, // 列表循环 0 单曲循环 1 随机播放 2
             play_num: 0,
             play_name: '',
-            custom_api: 'https://api.github.com/repos/ljh3675/relax',
+            custom_api: 'https://api.github.com/repos/ljh3675/relax/contents',
             timer: null,
             start_time: 0,
             duration_time: 0,

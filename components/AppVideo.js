@@ -6,8 +6,8 @@ export default {
     data: function () {
         return {
             activeNames: ['1'],
-            video_api: 'https://api.github.com/repos/onedx1943/Music/contents',
-            custom_api: 'https://api.github.com/repos/onedx1943/Music/contents',
+            video_api: 'https://api.github.com/repos/ljh3675/relax/contents',
+            custom_api: 'https://api.github.com/repos/ljh3675/relax/contents',
             video_list: [],
             video_msg: '正在读取文件...',
             filterText: '',
